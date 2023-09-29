@@ -4,8 +4,8 @@
     },
     "session": {
       "name": "SBCS",
-      "key_1": "somerandomkey",
-      "key_2": "somerandomkey"
+      "key_1": "12345678901234567890123456789012",
+      "key_2": "12345678901234567890123456789012"
     },
     "swagger_host_url": "localhost:3002",
     "publish_socioboard": {
@@ -96,15 +96,15 @@
     },
     "mysql": {
       "host": "localhost",
-      "username": "<< username >>",
-      "database": "<< Database name >>",
-      "password": "<< Database password >>"
+      "username": "root",
+      "database": "socioboard_dev",
+      "password": ""
     },
     "mongo": {
-      "username": "<< username >>",
-      "password": "<< Database password >>",
-      "host": "<< host >>",
-      "db_name": "<< Database name >>"
+      "username": "root",
+      "password": "",
+      "host": "localhost",
+      "db_name": "socioboard_dev"
     },
      "notification_socioboard": {
       "status": "on",

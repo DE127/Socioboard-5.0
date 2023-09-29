@@ -1,26 +1,26 @@
 {
     "user_socioboard": {
-      "mail_url": "https://local.socioboard.com",
+      "mail_url": "https://localhost:3000",
       "host_url": "http://localhost:3000",
       "port": "3000",
       "host": "localhost:3000"
     },
     "session": {
       "name": "SBCS",
-      "key_1": "somerandomkey",
-      "key_2": "somerandomkey"
+      "key_1": "12345678901234567890123456789012",
+      "key_2": "12345678901234567890123456789012"
     },
     "profile_page_invite_redirect_url": "",
     "invite_redirect_url_web": "",
     "swagger_host_url": "localhost:3000",
     "TIMEZONE": "",
-    "profile_add_redirect_url": "https://local.socioboard.com/facebook/callback",
-    "profile_page_redirect_url": "https://local.socioboard.com/facebook-page/callback",
+    "profile_add_redirect_url": "https://localhost:3000/facebook/callback",
+    "profile_page_redirect_url": "https://localhost:3000/facebook-page/callback",
     "facebook_api": {
-      "app_id": "<< APP ID >>",
-      "secret_key": "<< APP SECRET >>",
-      "redirect_url": "https://local.socioboard.com/facebook-callback",
-      "fbprofile_add_redirect_url": "https://local.socioboard.com/facebook/callback",
+      "app_id": "242272908328881",
+      "secret_key": "4e93e829cb7711049401be7dfd472b91",
+      "redirect_url": "https://localhost:3000/facebook-callback",
+      "fbprofile_add_redirect_url": "https://localhost:3000/facebook/callback",
       "invite_redirect_url": "",
       "page_scopes": "",
       "group_scopes":"",
@@ -29,12 +29,12 @@
       "version": "5.0.0"
     },
     "google_api": {
-      "client_id": "<< APP CLIENT ID >>",
-      "client_secrets": "<< CLIENT SECRET >>",
-      "redirect_url": "https://local.socioboard.com/google-callback",
-      "youtube_redirect_url": "https://local.socioboard.com/youtube/callback",
-      "google_profile_add_redirect_url": "https://local.socioboard.com/youtube/callback",
-      "api_key": "<< API KEY >>",
+      "client_id": "123456789012-abcdefghijklmnopqrstuvwxyz123456.apps.googleusercontent.com",
+      "client_secrets": "4e93e829cb7711049401be7dfd472b91",
+      "redirect_url": "https://localhost:3000/google-callback",
+      "youtube_redirect_url": "https://localhost:3000/youtube/callback",
+      "google_profile_add_redirect_url": "https://localhost:3000/youtube/callback",
+      "api_key": "AIzaSyD-1uJ1fYr7Z0MSEc7d0iXxxxxxxxxxxxxxxx",
       "dynamic_link": "https://socionode.page.link",
       "youtube_webhook_url": "http://localhost:3002/v1/webhooks/youtube",
       "youtube_insights_metrics": "averageViewDuration,likes,dislikes,comments,shares,subscribersGained,subscribersLost,views",
@@ -42,15 +42,15 @@
       "google_profile_add_invite_redirect_url": ""
     },
     "github_api": {
-      "client_id": "<< APP CLIENT ID >>",
-      "client_secret": "<< CLIENT SECRET >>",
-      "redirect_url": "https://local.socioboard.com/github-callback"
+      "client_id": "12345678901234567890",
+      "client_secret": "4e93e829cb7711049401be7dfd472b91",
+      "redirect_url": "https://localhost:3000/github-callback"
     },
     "twitter_api": {
       "api_key": "<< APP KEY >>",
       "secret_key": "<< CLIENT SECRET >>",
-      "login_redirect_url": "https://local.socioboard.com/twitter-callback",
-      "redirect_url": "https://local.socioboard.com/twitter/callback",
+      "login_redirect_url": "https://localhost:3000/twitter-callback",
+      "redirect_url": "https://localhost:3000/twitter/callback",
       "invite_redirect_url": "",
       "app_name": "<< APP NAME >>",
       "webhook_url": "https://localhost:3002/v1/webhooks/twitter",
@@ -58,30 +58,30 @@
       "version": "5.0.0"
     },
     "linkedIn_api": {
-      "client_id": "<< APP CLIENT ID >>",
-      "client_secret": "<< CLIENT SECRET >>",
-      "redirect_url": "https://local.socioboard.com/linkedin/callback",
-      "redirect_url_page":"https://local.socioboard.com/linkedIn-pages/callback",
+      "client_id": "12345678901234567890",
+      "client_secret": "4e93e829cb7711049401be7dfd472b91",
+      "redirect_url": "https://localhost:3000/linkedin/callback",
+      "redirect_url_page":"https://localhost:3000/linkedIn-pages/callback",
       "invite_redirect_url": "",
       "invite_redirect_url_page":"",
       "scope":""
     },
     "instagram_api": {
-      "client_id": "<< APP CLIENT ID >>",
-      "client_secret": "<< CLIENT SECRET >>",
-      "redirect_url": "https://local.socioboard.com/insta-callback",
-      "invite_redirect_url": "https://local.socioboard.com/insta-invite/callback"
+      "client_id": "12345678901234567890",
+      "client_secret": "4e93e829cb7711049401be7dfd472b91",
+      "redirect_url": "https://localhost:3000/insta-callback",
+      "invite_redirect_url": "https://localhost:3000/insta-invite/callback"
     },
     "pinterest": {
-      "client_id": "<< APP CLIENT ID >>",
-      "client_secret": "<< CLIENT SECRET >>",
+      "client_id": "12345678901234567890",
+      "client_secret": "4e93e829cb7711049401be7dfd472b91",
       "redirect_url": "https://localhost:3000/v1/team/addSocialProfile",
       "scope":""
     },
     "instagram_business_api": {
-      "client_id": "<< APP CLIENT ID >>",
-      "client_secret": "<< CLIENT SECRET >>",
-      "business_redirect_url": "https://local.socioboard.com/instagram-business/callback",
+      "client_id": "12345678901234567890",
+      "client_secret": "4e93e829cb7711049401be7dfd472b91",
+      "business_redirect_url": "https://localhost:3000/instagram-business/callback",
       "business_invite_redirect_url": "",
       "business_account_scopes":""
     },
@@ -96,7 +96,7 @@
     },
   "tumblr_api":{
       "OAuth_consumer_Key":"",
-      "OAuth_consumer_secret":"" 
+      "OAuth_consumer_secret":""
      },
   "test_url": "",
     "jest": {
@@ -110,9 +110,9 @@
     },
     "mysql": {
       "host": "localhost",
-      "username": "<< username >>",
-      "database": "<< Database name >>",
-      "password": "<< Database password >>"
+      "username": "root",
+      "database": "socioboard_dev",
+      "password": ""
     },
     "mongo": {
       "username": "<< username >>",
@@ -146,13 +146,13 @@
       "key": "<< aMember Key >>",
       "domain": "https://<< DOMAIN >>/amember/api"
     },
-    "aMember_enabled": "true",
+    "aMember_enabled": "false",
     "notification_socioboard": {
       "status": "on",
       "host_url": "https://notifyv5.socioboard.com"
     },
     "twilio": {
-      "account_sid": "<< twilio account_sid >>",
+      "account_sid": "AC12345678901234567890",
       "auth_key": "<< twilio auth_key >>",
       "service_id": "<< twilio service_id >>"
     }

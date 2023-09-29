@@ -6,8 +6,8 @@
     },
     "session": {
       "name": "SBCS",
-      "key_1": "somerandomkey",
-      "key_2": "somerandomkey"
+      "key_1": "12345678901234567890123456789012",
+      "key_2": "12345678901234567890123456789012"
     },
     "swagger_host_url": "localhost:3001",
     "user_socioboard": {
@@ -44,16 +44,16 @@
       }
     },
     "mysql": {
-      "host": "<< host >>",
-      "username": "<< username >>",
-      "database": "<< Database name >>",
-      "password": "<< Database password >>"
+      "host": "localhost",
+      "username": "root",
+      "database": "socioboard_dev",
+      "password": ""
     },
     "mongo": {
-      "username": "<< username >>",
-      "password": "<< Database password >>",
-      "host": "<< host >>",
-      "db_name": "<< Database name >>"
+      "username": "root",
+      "password": "",
+      "host": "localhost",
+      "db_name": "socioboard_dev"
     },
     "profile_add_redirect_url": "https://local.socioboard.com/addSocialProfile",
     "facebook_api": {
