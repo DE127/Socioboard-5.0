@@ -1,0 +1,160 @@
+{
+    "user_socioboard": {
+      "mail_url": "https://localhost:3000",
+      "host_url": "http://localhost:3000",
+      "port": "3000",
+      "host": "localhost:3000"
+    },
+    "session": {
+      "name": "SBCS",
+      "key_1": "12345678901234567890123456789012",
+      "key_2": "12345678901234567890123456789012"
+    },
+    "profile_page_invite_redirect_url": "",
+    "invite_redirect_url_web": "",
+    "swagger_host_url": "localhost:3000",
+    "TIMEZONE": "",
+    "profile_add_redirect_url": "https://localhost:3000/facebook/callback",
+    "profile_page_redirect_url": "https://localhost:3000/facebook-page/callback",
+    "facebook_api": {
+      "app_id": "242272908328881", // https://developers.facebook.com/apps/ example: 242272908328881
+      "secret_key": "4e93e829cb7711049401be7dfd472b91", // https://developers.facebook.com/apps/123456789012345/settings/basic/ example: 4e93e829cb7711049401be7dfd472b91
+      "redirect_url": "https://localhost:3000/facebook-callback",
+      "fbprofile_add_redirect_url": "https://localhost:3000/facebook/callback",
+      "invite_redirect_url": "",
+      "page_scopes": "",
+      "group_scopes":"",
+      "login_scopes": "",
+      "profile_scopes": "",
+      "version": "5.0.0"
+    },
+    "google_api": {
+      "client_id": "123456789012-abcdefghijklmnopqrstuvwxyz123456.apps.googleusercontent.com", // https://console.developers.google.com/apis/credentials example: 123456789012-abcdefghijklmnopqrstuvwxyz123456.apps.googleusercontent.com
+      "client_secrets": "4e93e829cb7711049401be7dfd472b91", // https://console.developers.google.com/apis/credentials example: 4e93e829cb7711049401be7dfd472b91
+      "redirect_url": "https://localhost:3000/google-callback",
+      "youtube_redirect_url": "https://localhost:3000/youtube/callback",
+      "google_profile_add_redirect_url": "https://localhost:3000/youtube/callback",
+      "api_key": "AIzaSyD-1uJ1fYr7Z0MSEc7d0iXxxxxxxxxxxxxxxx", // https://console.developers.google.com/apis/credentials example: AIzaSyD-1uJ1fYr7Z0MSEc7d0iXxxxxxxxxxxxxxxx
+      "dynamic_link": "https://socionode.page.link", // https://firebase.google.com/docs/dynamic-links/rest example: https://socionode.page.link
+      "youtube_webhook_url": "http://localhost:3002/v1/webhooks/youtube",
+      "youtube_insights_metrics": "averageViewDuration,likes,dislikes,comments,shares,subscribersGained,subscribersLost,views",
+      "login_scopes": "",
+      "google_profile_add_invite_redirect_url": ""
+    },
+    "github_api": {
+      "client_id": "12345678901234567890", // example: 12345678901234567890 docs: https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/
+      "client_secret": "4e93e829cb7711049401be7dfd472b91", // example: 4e93e829cb7711049401be7dfd472b91
+      "redirect_url": "https://localhost:3000/github-callback"
+    },
+    "twitter_api": { // https://developer.twitter.com/en/apps
+      "api_key": "<< APP KEY >>",
+      "secret_key": "<< CLIENT SECRET >>",
+      "login_redirect_url": "https://localhost:3000/twitter-callback",
+      "redirect_url": "https://localhost:3000/twitter/callback",
+      "invite_redirect_url": "",
+      "app_name": "<< APP NAME >>",
+      "webhook_url": "https://localhost:3002/v1/webhooks/twitter",
+      "webhook_environment": "development",
+      "version": "5.0.0"
+    },
+    "linkedIn_api": { // https://www.linkedin.com/developers/apps
+      "client_id": "12345678901234567890", // example: 12345678901234567890
+      "client_secret": "4e93e829cb7711049401be7dfd472b91", // example: 4e93e829cb7711049401be7dfd472b91
+      "redirect_url": "https://localhost:3000/linkedin/callback",
+      "redirect_url_page":"https://localhost:3000/linkedIn-pages/callback",
+      "invite_redirect_url": "",
+      "invite_redirect_url_page":"",
+      "scope":""
+    },
+    "instagram_api": { // https://www.instagram.com/developer/clients/manage/
+      "client_id": "12345678901234567890", // example: 12345678901234567890
+      "client_secret": "4e93e829cb7711049401be7dfd472b91", // example: 4e93e829cb7711049401be7dfd472b91
+      "redirect_url": "https://localhost:3000/insta-callback",
+      "invite_redirect_url": "https://localhost:3000/insta-invite/callback"
+    },
+    "pinterest": { // https://developers.pinterest.com/apps/
+      "client_id": "12345678901234567890", //example: 12345678901234567890
+      "client_secret": "4e93e829cb7711049401be7dfd472b91", // example: 4e93e829cb7711049401be7dfd472b91
+      "redirect_url": "https://localhost:3000/v1/team/addSocialProfile",
+      "scope":""
+    },
+    "instagram_business_api": { // https://developers.facebook.com/apps/
+      "client_id": "12345678901234567890", // example: 12345678901234567890
+      "client_secret": "4e93e829cb7711049401be7dfd472b91", // example: 4e93e829cb7711049401be7dfd472b91
+      "business_redirect_url": "https://localhost:3000/instagram-business/callback",
+      "business_invite_redirect_url": "",
+      "business_account_scopes":""
+    },
+    "bitly_api": { // https://bitly.com/a/oauth_apps
+      "client_id": "",
+      "client_secret": "",
+      "redirect_uri": "",
+      "access_token":""
+      },
+   "tiny_link":{ // https://developers.linkapi.solutions/docs/tiny
+     "api_key":""
+    },
+  "tumblr_api":{ // https://www.tumblr.com/oauth/apps
+      "OAuth_consumer_Key":"",
+      "OAuth_consumer_secret":"" 
+     },
+  "test_url": "",
+    "jest": {
+      "access_token": "<< JEST ACCESS TOKEN >>"
+    },
+    "mailTitles": {
+      "activation_link": "Dev - Activation link",
+      "Invitation_user": "Dev - Invitation from SocioBoard to Add Account",
+      "forgot_password_request": "Dev - Reset Password",
+      "payment_invoice": "Dev - Payment Invoice"
+    },
+    "mysql": {
+      "host": "localhost",
+      "username": "root",
+      "database": "socioboard_dev",
+      "password": ""
+    },
+    "mongo": {
+      "username": "<< username >>",
+      "password": "<< Database password >>",
+      "host": "<< host >>",
+      "db_name": "<< Database name >>"
+    },
+    "authorize": {
+      "secret": "<< RANDOM SECRET >>",
+      "token_secret": "<< RANDOM TOKEN >>",
+      "algorithm": "aes-256-cbc",
+      "encoding_typeOne": "utf8",
+      "encoding_typeTwo": "hex"
+    },
+    "mailService": {
+      "defaultMailOption": "sendgridapi",
+      "sendgrid": {
+        "username": "<< Sendgrid username >>",
+        "password": "<< Sendgrid Password >>",
+        "frommail": "<< From Mail >>",
+        "ccmail": "<< Any CC Mail >>",
+        "apiKey": "<< SEND-GRID TOKEN >>"
+      },
+      "gmailServices": {
+        "email": "<< Google email >>",
+        "password": "<< Google email Password >>"
+      }
+    },
+    "socioboardTwitterhandler": "@board_socio",
+    "aMember": {
+      "key": "<< aMember Key >>",
+      "domain": "https://<< DOMAIN >>/amember/api"
+    },
+    "aMember_enabled": "false", // true or false default true
+    "notification_socioboard": {
+      "status": "on",
+      "host_url": "https://notifyv5.socioboard.com"
+    },
+    "twilio": { // https://www.twilio.com/console required for sms notification
+      "account_sid": "12345678901234567890", // example: 12345678901234567890
+      "auth_key": "<< twilio auth_key >>",
+      "service_id": "<< twilio service_id >>"
+    }
+  }
+  
