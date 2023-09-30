@@ -41,6 +41,12 @@
       "login_scopes": "",
       "google_profile_add_invite_redirect_url": ""
     },
+    "analytics": {
+      "tracking_id": "<< Google Analytics ID >>",
+      "view_id": "<< google View ID >>",
+      "ganalytics_service_email": "<< Google services email >>",
+      "ganalytics_private_key": "<< Google Private Key >>"
+    },
     "github_api": {
       "client_id": "12345678901234567890", // example: 12345678901234567890 docs: https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/
       "client_secret": "4e93e829cb7711049401be7dfd472b91", // example: 4e93e829cb7711049401be7dfd472b91
